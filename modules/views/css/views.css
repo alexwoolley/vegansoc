@@ -1,0 +1,64 @@
+.views-exposed-form .views-exposed-widget {
+  float: left; /* LTR */
+  padding: .5em 1em 0 0; /* LTR */
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 1.6em;
+}
+
+.views-exposed-form .form-item,
+.views-exposed-form .form-submit {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.views-exposed-form label {
+  font-weight: bold;
+}
+
+.views-exposed-widgets {
+  margin-bottom: .5em;
+}
+
+/* table style column align */
+.views-align-left {
+  text-align: left;
+}
+.views-align-right {
+  text-align: right;
+}
+.views-align-center {
+  text-align: center;
+}
+
+/* Remove the border on tbody that system puts in */
+.views-view-grid tbody {
+  border-top: none;
+}
+
+.view .progress-disabled {
+  float: none;
+}
+
+h1#page-title {
+  font-size: 1em !important;
+  line-height: 1;
+}
+
+.views-exposed-widgets.clearfix {
+    background-color: #008374;
+}
+
+.views-exposed-form label {
+  font-weight: normal;
+  font-family: Arial;
+  color: white;
+}
+
+.views-exposed-form .form-text {
+    background-color: #3b9c91;
+    padding-color:#3b9c91;
+    border-color: #3b9c91;
+    margin-color: #3b9c91;
+}
