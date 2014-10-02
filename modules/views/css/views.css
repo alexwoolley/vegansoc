@@ -1,3 +1,20 @@
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+
 .views-exposed-form .views-exposed-widget {
   float: left; /* LTR */
   padding: .5em 1em 0 0; /* LTR */
@@ -43,11 +60,18 @@
 
 h1#page-title {
   font-size: 1em !important;
+  font-family: Arial;
   line-height: 1;
+  color: white;
+  background-color: #008374;
+  border-bottom: 10px !important;
+  border-color: #008374;
+  margin-bottom: 0px;
 }
 
 .views-exposed-widgets.clearfix {
     background-color: #008374;
+    margin-top: 0px;
 }
 
 .views-exposed-form label {
@@ -62,3 +86,57 @@ h1#page-title {
     border-color: #3b9c91;
     margin-color: #3b9c91;
 }
+
+.view-content {
+    background-color: white;
+}
+
+ul.tabs.primary {
+    background-color: #008374 !important;
+    border-bottom: 10px !important;
+    border-color: #008374;
+    margin-bottom: 0px;
+}
+
+tr.odd.views-row-first.views-row-last {
+    background-color: white;
+}
+
+div#page {
+    background-color: #fafbf6;
+}
+
+.breadcrumb {
+    background-color: #fafbf6;
+}
+
+div#main-wrapper {
+    background-color: #fafbf6;
+}
+
+.tabs.primary {
+  margin-bottom: 0px;
+}
+
+td.views-field.views-field-title {
+    background-color: white;
+    font-family:"Museo Slab 700",Helvetica,Arial,sans-serif;
+}
+td.views-field.views-field-title a {
+    color: black;
+    text-decoration: none;
+    cursor: text;
+}
+td.views-field.views-field-field-category {
+    background-color: white;
+}
+td.views-field.views-field-field-product-website {
+    background-color: white;
+}
+
+td.views-field.views-field-field-brand {
+    background-color: white;
+}
+
+td.views-field.views-field-field-company {
+    background-color: white;
